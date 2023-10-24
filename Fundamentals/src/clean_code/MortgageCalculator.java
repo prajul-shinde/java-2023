@@ -28,7 +28,7 @@ public class MortgageCalculator {
         System.out.println("PAYMENT SCHEDULE");
         System.out.println("----------------");
 
-        printPaymentSchedule()
+        printPaymentSchedule(principal,annualInterest,period);
 
     }
 
