@@ -1,6 +1,6 @@
-package Inheritance;
+package Inheritance.AbstractClasses;
 
-public class UIControl {
+public abstract class UIControl {
 
     private boolean isEnabled = true;
 
@@ -24,8 +24,6 @@ public class UIControl {
         isEnabled = false;
     }
 
-    public void render(){
-        System.out.println("rendering UIControl");
-    }
+    public abstract void render();
 
 }

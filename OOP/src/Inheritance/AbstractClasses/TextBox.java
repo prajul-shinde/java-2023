@@ -1,4 +1,4 @@
-package Inheritance;
+package Inheritance.AbstractClasses;
 
 public class TextBox extends UIControl {
 
