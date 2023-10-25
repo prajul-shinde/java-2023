@@ -1,0 +1,17 @@
+new features: 
+
+- interfaces can have fields (by default they are static and final)
+- they can have private and static methods
+
+- with new features interfaces have lost their meaning and lotta people are abusing the to achieve multiple inheritance.
+
+why do you think that: people are using it as hack to achive multiple inhertance. but interfaces should not be
+ confused with class we should keep them as contract so we can minimize the impact of changes so we can build loosly coupled applications
+ so if we change how we do something we not gonna end up breaking code or recompilation in code.
+
+when to use interfaces?
+
+- when you wanna decouple class from its dependencies. benefit: 
+    - easily swap one implementation with another. encoding vdo with different algorithm
+    -easily extend applications. eg new tax calculator
+    - test classes in isolation. if you are using email service we can decouple it from dependencies and test in isolation.
