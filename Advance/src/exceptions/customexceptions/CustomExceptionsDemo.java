@@ -5,8 +5,8 @@ public class CustomExceptionsDemo {
         var account = new Account();
         try {
             account.withDraw(10F);
-        } catch (InsufficientFundsException e) {
-            System.out.println(e.getMessage());
+        } catch (AccountException e) {
+            System.out.println(e.getCause().getMessage());
         }
     }
 }
