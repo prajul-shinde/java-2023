@@ -2,6 +2,11 @@ package generics;
 
 public class User implements Comparable<User> {
 
+    @Override
+    public String toString() {
+        return "User [points=" + points + "]";
+    }
+
     private int points;
 
     public User(int points) {
