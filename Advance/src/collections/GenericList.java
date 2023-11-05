@@ -2,7 +2,7 @@ package collections;
 
 import java.util.Iterator;
 
-public class IteratorIterableDemo<T> implements Iterable<T> {
+public class GenericList<T> implements Iterable<T> {
 
     private T[] items = (T[]) new Object[10];
     private int count;
