@@ -10,5 +10,8 @@ public class ComposingFunctionsDemo {
         String result = replaceFunction.andThen(addBraces).apply("key:value");
 
         System.out.println(result);
+
+        String resultUsingCompose = addBraces.compose(replaceFunction).apply("key:value");
+        System.out.println(resultUsingCompose);
     }
 }
