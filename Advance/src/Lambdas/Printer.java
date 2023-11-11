@@ -1,4 +1,4 @@
-package collections.Lambdas;
+package Lambdas;
 
 //functional interface: single abstract method, can have multiple non abstract methods
 public interface Printer {

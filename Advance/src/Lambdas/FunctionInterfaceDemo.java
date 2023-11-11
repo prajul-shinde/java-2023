@@ -1,4 +1,4 @@
-package collections.Lambdas;
+package Lambdas;
 
 public class FunctionInterfaceDemo {
     public static void showUsingAnonymousInnerClass() {
