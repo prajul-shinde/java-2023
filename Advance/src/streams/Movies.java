@@ -2,6 +2,18 @@ package streams;
 public class Movies {
     private String name;
     private int likes;
+    private Genre genre;
+    
+
+    public Movies(String name, int likes, Genre genre) {
+        this.name = name;
+        this.likes = likes;
+        this.genre = genre;
+    }
+
+    public Genre getGenre() {
+        return genre;
+    }
 
     public Movies(String name, int likes) {
         this.name = name;
