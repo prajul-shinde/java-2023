@@ -1,6 +1,7 @@
 package streams;
 
 import java.util.List;
+import java.util.Optional;
 
 public class ReducersDemo {
     public static void main(String[] args) {
@@ -12,6 +13,8 @@ public class ReducersDemo {
         
         boolean anyMatch = movies.stream().anyMatch(m -> m.getLikes() >20);
         Movies movies2 = movies.stream().findFirst().get();
-        
+
+        Integer reduce = movies.stream().map(Movies::getLikes).reduce(0,Integer::sum);
+
     }
 }
